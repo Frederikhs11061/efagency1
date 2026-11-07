@@ -1,6 +1,6 @@
 # EF Agency
 
-Billedbåret redesign med store kondenserede statements, rolige CTA’er og scrollkoreografi. Fem officielle React Bits-komponenter er integreret: SplitText, AnimatedContent, ScrollReveal, BlurText og Magnet.
+Billedbåret redesign med store kondenserede statements, rolige CTA’er og scrollkoreografi. Syv officielle React Bits-komponenter er integreret: SplitText, AnimatedContent, ScrollReveal, BlurText, Magnet, ScrollFloat og CountUp.
 
 Lokalt redesign bygget med website-byggemanual, Impeccable, Next.js, Lenis, GSAP, React Bits og Magic UI. Ingen Shopify-afhængighed og intet er publiceret.
 

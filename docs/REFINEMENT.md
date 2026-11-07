@@ -17,3 +17,9 @@ Ejer beder også om flere faktiske React Bits-komponenter i TS/Tailwind gennem C
 Heroens udgang følger dens ene skærmhøjde; ingen pin eller ekstra tvungen scrollafstand. Hvert koncept får ca. 0,75 skærmhøjdes aktiv billedbevægelse. Billedbåndets horizontale forskydning følger hele turen gennem viewporten og står stille uden scroll. Tekstentréer varer 0,65–0,9 sekunder; introduktionens ord fremhæves over den sidste halve viewport frem mod sin læseposition. Resten af siden flyder normalt.
 
 Alle tunge React Bits-effekter under folden indlæses nær viewporten med almindelig servertekst som fallback. Ingen automatisk billedbåndsløkke kræver længere en pausekontrol. Reduced motion bevarer statisk indhold og alle handlinger. Ingen Higgsfield-video eller videosekvens er bestilt eller påstået produceret; inspirationens fortælle- og pacingprincipper anvendes på de eksisterende motiver.
+
+## Mobil- og motionrevision 4
+
+Ejerens nye skærmbillede viste en forstørret jakke og en CTA presset mod bunden. Uafhængig kritik ligger i reports/CRITIQUE-V4.md, med separate vurderinger og detektorens 83 advisories. Den historiske baselinescore er 27/36, ikke en slutscore.
+
+Rettet med særskilt portrætredigering af heroen, normal billedbredde, indholdsstyret mobilplacering, kortere konceptbilleder og tydeligere sektionhierarki. Proces er ombygget til et sekventielt scrollforløb. Syv faktiske React Bits-komponenter bruges nu, inklusive ScrollFloat og CountUp installeret i TS/Tailwind via officiel CLI. Tekstforberedelse og synlig start er adskilt, og kontaktstatus lover ikke, at en ekstern mailapp med sikkerhed blev åbnet. Ingen copy, resultater eller kundebeviser er opfundet.

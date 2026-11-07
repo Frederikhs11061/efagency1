@@ -22,6 +22,24 @@ typography:
     fontWeight: 700
     lineHeight: 0.91
     letterSpacing: '-0.025em'
+  headline-packages-mobile:
+    fontFamily: 'Barlow Condensed, sans-serif'
+    fontSize: '64px'
+    fontWeight: 700
+    lineHeight: 0.94
+    letterSpacing: '-0.025em'
+  headline-faq-mobile:
+    fontFamily: 'Barlow Condensed, sans-serif'
+    fontSize: '62px'
+    fontWeight: 700
+    lineHeight: 0.94
+    letterSpacing: '-0.025em'
+  headline-contact-mobile:
+    fontFamily: 'Barlow Condensed, sans-serif'
+    fontSize: 'clamp(60px,18.6vw,100px)'
+    fontWeight: 700
+    lineHeight: 0.92
+    letterSpacing: '-0.025em'
   title-display:
     fontFamily: 'Barlow Condensed, sans-serif'
     fontSize: 'clamp(32px,3vw,48px)'
@@ -102,7 +120,7 @@ components:
 
 Filmtrailerens hard cuts forbinder fotografisk tyngde med kontante typografiske statements. Charcoal-sort, varm hvid og gul skaber tydelige skift mellem billede, læsning og handling. Udtrykket er filmisk, direkte og selvsikkert: tætte displaylinjer møder åbne indholdsrækker og generøs afstand mellem sektioner.
 
-Dette dokument registrerer den implementerede, kodebaserede retning. De normative tokens er udledt af den aktuelle CSS; der påstås ingen comp-godkendelse. Clix Productions og Umault er retningsgivende inspiration for billeddominans og kontrast. Ejerens afvisning af papir/rød-retningen og ønske om at bevare logoet er bindende. Retningskontrakten og sidens konkrete fortælleforløb findes i `docs/REDESIGN-V2.md`; ejerens efterfølgende finpudsning er registreret i `docs/REFINEMENT.md`. Denne finpudsning bevarer verdenen og samler handlingerne i kapsler og rolig versaltekst.
+Dette dokument registrerer den implementerede, kodebaserede retning. De normative tokens er udledt af den aktuelle CSS; der påstås ingen comp-godkendelse. Clix Productions og Umault er retningsgivende inspiration for billeddominans og kontrast. Ejerens afvisning af papir/rød-retningen og ønske om at bevare logoet er bindende. Retningskontrakten og sidens konkrete fortælleforløb findes i `docs/REDESIGN-V2.md`; ejerens efterfølgende finpudsning er registreret i `docs/REFINEMENT.md`. Identitetskontrakten (`seed:c8ba7a195a86b954`) består. Den seneste mobil- og motionrevision bevarer verdenen, kapslerne og den rolige versaltekst; den tilpasser billedkomposition, mobilrytme og scrollforløb til den aktuelle implementering.
 
 **Key Characteristics:**
 - Fotografiske motiver med reelle teksturer og bevidste beskæringer; almindelig introduktion beskriver dem som visuelle koncepter.
@@ -137,7 +155,7 @@ Paletten er mørk og filmisk med varm hvid til kontrast og varm gul som kontant 
 
 ### Hierarchy
 - **Display:** heroens tre linjer bruger frontmatter-rollen. På tablet op til 900 px er størrelsen (clamp(108px,14vw,130px)); op til 600 px (clamp(74px,23vw,130px), linjehøjde .86); op til 360 px (clamp(70px,22.6vw,82px)). Ved lav desktophøjde bruges (clamp(110px,10.5vw,160px)).
-- **Headline:** store sektionsstatements bruger den kondenserede headline-rolle med lokale skaleringer. Generel mobiloverskrift er (68px, linjehøjde .94); tydelige særroller er service (80px), proces og pakker (72px). Kontakt er størst på desktop (clamp(100px,13vw,200px), linjehøjde .85).
+- **Headline:** store sektionsstatements bruger den kondenserede headline-rolle med lokale skaleringer. Generel mobiloverskrift er (68px, linjehøjde .94); service er (80px) og proces (72px). Pakkers, FAQ’s og kontaktens mobilroller står i frontmatter; pakker falder til (62px) op til (360px). Kontakt er størst på desktop (clamp(100px,13vw,200px), linjehøjde .85).
 - **Title display:** den kondenserede titelrolle bærer ydelsesnavne, lokalt skaleret til (clamp(44px,5vw,76px)); mobil (46px, linjehøjde 1).
 - **Title:** Manrope-titlen bærer procestrin. Pakketitler er (28px, 600, linjehøjde 1.2); personnavne (29px, 600, linjehøjde 1.3). Billedmotivers titler er Barlow i selve rammen, mens captions bruger Manrope (16px, mobil 15px, linjehøjde 1.6).
 - **Body:** basisrollen anvendes til læsning; forklarende afsnit bruger ofte linjehøjde (1.8–1.85). Afsnit har højst (65ch); konkrete spalter kan være smallere. Brødtekst bevares på mindst (16px) på mobil.
@@ -153,7 +171,11 @@ Indholdet står i en centreret ramme med maksimum (1600px) og flydende siderum s
 
 Ved (1150px) komprimeres spalter og afstande. Ved (900px) er siderummet (32px), flere introer bliver én kolonne, og pakker flytter handling under featurelisten. Ved (600px) bliver indholdsrækker overvejende én kolonne, navigation bliver en menu, siderum og sektionsafstand bruger mobilværdierne, og formularens to felter stables. Pakker bevarer navn og antal i to kolonner (1fr/75px), mens features og handling fylder bredden. Ved (360px) falder siderummet til (18px), og statements skaleres yderligere.
 
-Headeren er fast (100px), derefter (90px/85px/82px) gennem de smallere trin. Ankerafstand i dokumentet er (110px). Den fotografiske hero bruger skærmhøjde med læsbare minimumshøjder og kontrolleret maksimum; mobil har minimum (760px), eller (780px) op til 360 px. Billedbeskæring, skyggetone og tekststørrelse tilpasses separat. Billedtitler begrænses af deres egen containerbredde med (min(165px,35cqw)).
+Headeren er fast (100px), derefter (90px/85px/82px) gennem de smallere trin. Ankerafstand i dokumentet er (110px). Den fotografiske hero bruger skærmhøjde med læsbare minimumshøjder og kontrolleret maksimum. Mobil bruger (100svh, minimum 700px, maksimum 860px), også op til (360px). Portræt op til (600px) får det særskilte billede `hero-mobile-v4.jpg` (941 × 1672), redigeret fra det eksisterende heromotiv; øvrige skærme bruger `hero-v2.jpg`. Det samme portrætbillede bruges i TEMPO-konceptets billedramme, så atletmotivet bevares i den tætte beskæring. Billedlærred og billede fylder (100%) af heroen med cover-beskæring og højrestillet motiv på mobil. Titel, introduktion og handling følger naturligt efter hinanden: indhold starter ved (125px), introduktionen kommer efter titlen med (28px), og handlingerne har luft over sig (22px). Nederste indhold presses ikke mod skærmbunden.
+
+Kort portræt op til (700px) højde og (600px) bredde starter indholdet ved (110px), reducerer titlen til (clamp(70px,21vw,105px)), bruger titel-til-introduktion (24px) og handlingens topafstand (18px). Lavt bredformat ved (601–1000px) bredde og højst (500px) højde bruger en hero på (560px) og to indholdsspalter med afstand (35px); titel er (clamp(82px,10vw,100px)), og billedet fokuserer ved (65% center). Billedbeskæring, skyggetone og tekststørrelse tilpasses separat.
+
+Konceptbilleder på mobil deler et mere kompakt portrætformat (4/4.2); desktop bevarer de forskellige formater (4/4.7, 4/5 og 1.95). Billedtitler begrænses af deres egen containerbredde med (min(165px,35cqw)). Processens venstre introduktion er CSS-sticky på desktop over (900px), placeret ved (130px); tre indholdsrækker til højre læses i rækkefølge. Ved højst (900px) bliver processen én kolonne med statisk introduktion. Der bruges ingen GSAP-pin eller ekstra scrollafstand.
 
 ## Elevation & Depth
 
@@ -177,7 +199,7 @@ Tekstlinks og heroens sekundære handling er åbne versaltekster uden bundkant e
 
 ### Open containers and service rows
 
-Pakker er flade artikler med strukturelle skillelinjer. Desktop fordeler navn, antal, features og link på fire kolonner (1.1fr/.5fr/1.15fr/.65fr), afstand (42px) og lodret padding fra frontmatter. Beskrivelse har luft over sig (18px; mobil 15px). Store antal bruger Barlow (98px, mobil 88px). Pakkens handling er rolig versaltekst uden pil. I de smallere layouttrin flyttes handlingen under features med en strukturel opdeling.
+Pakker er flade artikler med strukturelle skillelinjer. Desktop fordeler navn, antal, features og link på fire kolonner (1.1fr/.5fr/1.15fr/.65fr), afstand (42px) og lodret padding fra frontmatter. Beskrivelse har luft over sig (18px; mobil 15px). Store, faktiske pakkeantal (4/8/12) bruger Barlow (98px, mobil 88px), tabellariske cifre. CountUp forbedrer de synlige slutværdier med en kort optælling; antallene er ikke resultatstatistik. Pakkens handling er rolig versaltekst uden pil. I de smallere layouttrin flyttes handlingen under features med en strukturel opdeling.
 
 Ydelsesrækker på varm hvid bruger to kolonner (1.25fr/.75fr), afstand (80px), lyse skillelinjer og deres egen padding. De er statiske artikler uden interaktiv hover. AnimatedContent giver rækker og stifterbiografier en målrettet entré uden at skjule teksten som udgangspunkt.
 
@@ -199,14 +221,18 @@ FAQ er en mørk række med linje, spørgsmål og tyndt plus/minus. Summary har m
 
 ### Progressive motion
 
-Bevægelse følger fortællingen og bruger synlig servertekst som udgangspunkt. Heroens ankomst er let CSS-bevægelse (35px til 0, .75s, forsinkelse 0/.05/.1s). Efter første interaktion indlæses én Lenis-motor (1.05s), synkroniseret med GSAP/ScrollTrigger. Sektionsentréer flytter allerede synligt indhold (30px, .85s, power3.out). Konceptbilleder går fra (scale 1.1, yPercent 3, opacity .65) til (scale 1, yPercent −2, opacity 1) fra (top 95% til top 20%, scrub .8). Kontaktoverskriftens linjer ankommer (y 40px, opacity .6, .9s, stagger .1s). Desktop fra (900px) har forskellig udgangshastighed for heroens billede og tekst uden pin eller ekstra tvungen scrollafstand.
+Bevægelse følger fortællingen og bruger synlig servertekst som udgangspunkt. Heroens ankomst er let CSS-bevægelse (35px til 0, .75s, forsinkelse 0/.05/.1s). Efter første interaktion indlæses én Lenis-motor (1.05s), synkroniseret med GSAP/ScrollTrigger. Sektionsentréer flytter allerede synligt indhold (30px, .85s, power3.out). Konceptbilleder går fra (scale 1.16, yPercent 5) til (scale 1, yPercent −3) fra (top 95% til top 20%, scrub .8), med fuld opacitet; billedtitler flyttes fra (y 65px til 0) fra (top 90% til top 40%, scrub .65). Kontaktoverskriften følger scroll med ScrollFloat som beskrevet nedenfor. Desktop fra (900px) har forskellig udgangshastighed for heroens billede og tekst uden pin eller ekstra tvungen scrollafstand.
 
-Fem faktiske React Bits-komponenter er installeret fra den officielle CLI og tilpasset synlig servertekst, semantik, ref-synkronisering og reduced motion. Dokumentationen beskriver kun de brugte effekter:
-- **SplitText:** sidste linje af ydelsesoverskriften; indlæses nær viewporten (rootMargin 180px), afventer fonte og splitter ord med GSAP. Bevægelse (yPercent 95 til 0), opacitet (1), varighed (.7s), stagger (45ms), power3.out. H2 har samlet tilgængelig label.
+Syv faktiske React Bits-komponenter er installeret fra den officielle CLI og tilpasset synlig servertekst, semantik, ref-synkronisering og reduced motion. Dokumentationen beskriver kun de brugte effekter:
+- **SplitText:** sidste linje af ydelsesoverskriften; forberedes (200px) før viewporten, men monteres først, når linjen når den synlige del af skærmen (rootMargin 0px 0px −16%). Afventer fonte og splitter ord med GSAP. Bevægelse (yPercent 95 til 0), opacitet (1), varighed (.7s), stagger (45ms), power3.out. H2 har samlet tilgængelig label.
 - **AnimatedContent:** ydelsesrækker og stifterbiografier; indlæses nær viewporten (120px), afstand (35px), varighed (.85s), ingen opacity-animation, threshold (.08). Forsinkelse pr. række er (.05s) og pr. biografi (.08s).
-- **BlurText:** de tre navnelinjer i om-os-overskriften; indlæses nær viewporten (120px). Ord afklares én gang fra (blur 4px, opacity .7, y 24px) til klart og fuldt synligt, med (.65s) og (50ms) stagger.
+- **BlurText:** de tre navnelinjer i om-os-overskriften; forberedes (200px) før viewporten og monteres først synligt (rootMargin 0px 0px −18%). Ord afklares én gang fra (blur 4px, opacity .7, y 24px) til klart og fuldt synligt, med (.65s) og (50ms) stagger.
 - **ScrollReveal:** introduktionens 25 ord i om-os; indlæses nær viewporten (120px), opacity (.7 til 1), ingen blur eller rotation, ordvis fade med smoothing (.4), frem til (bottom 50%). Teksten forbliver et afsnit og læsbar under forløbet.
+- **ScrollFloat:** kontaktoverskriftens linjer; indlæses nær viewporten (120px), opdeles i tegn og følger scroll fra (top 88% til top 42%, smoothing .55). Float bruger distance (48), svarende til (yPercent 48 til 0), stretch (1), opacity (.7 til 1), stagger (.025s) og power3.out. Linjerne arver typografi; overskriften har samlet tilgængelig label.
+- **CountUp:** de reelle pakkeantal (4/8/12); starter først synligt (rootMargin 0px 0px −12%) og tæller fra (0) til slutværdien på (.7s) med expo-easing. Server-HTML og fallback viser slutværdien; det tilgængelige navn forbliver slutværdien under optællingen. Reduced motion beholder de statiske antal.
 - **Magnet:** kun hovedhandlingerne i hero og formular. Museforskydning begrænses til (5px) i hero og (4px) i formular, med spring (stiffness 190, damping 30, mass 1). Touch ignoreres, og reduced motion giver statiske handlinger.
+
+Processens tre rækker har hver en GSAP-scrollsekvens fra (top 84% til top 38%, scrub .55): gul skillelinje vokser fra venstre (scaleX 0 til 1), nummeret ankommer fra (y 28px, opacity .4), og titellinjen fra (yPercent 95). Forklaringen følger lidt senere fra (x 18px, opacity .7), forskudt (.12) i tidslinjen. Rækkernes placering skaber rækkefølgen; mobil beholder almindeligt dokumentflow uden pin.
 
 Den officielle Magic UI Marquee leverer stadig billedstribens to gentagelser med `aria-hidden` på dubletter. Den automatiske CSS-animation er slået fra med `animation:none!important`; GSAP flytter striben (xPercent −30, scrub 1) gennem turen fra (top bottom) til (bottom top). Den står stille uden scroll. Afstand er (18px), mobil (12px); de tilbageværende duration-variabler styrer ikke en autoplay-løkke. Der er derfor ingen pausekontrol. Reduced motion fjerner animationer og transitions og bevarer statisk indhold og handlinger. CSS-easing er `cubic-bezier(.22,1,.36,1)`.
 

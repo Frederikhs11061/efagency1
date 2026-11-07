@@ -2,12 +2,15 @@
 import {lazy,Suspense,useEffect,useRef,useState,type ReactNode} from 'react';
 const AnimatedContent=lazy(()=>import('@/components/AnimatedContent'));
 const ScrollReveal=lazy(()=>import('@/components/ScrollReveal'));
-const BlurText=lazy(()=>import('@/components/BlurText'));
-function useNearViewport<T extends HTMLElement>(){
+const loadBlur=()=>import('@/components/BlurText');
+const BlurText=lazy(loadBlur);
+const ScrollFloat=lazy(()=>import('@/components/ScrollFloat'));
+const CountUp=lazy(()=>import('@/components/CountUp'));
+function useNearViewport<T extends HTMLElement>(margin="120px",preload?:()=>Promise<unknown>){
  const ref=useRef<T>(null);const [active,setActive]=useState(false);
- useEffect(()=>{const el=ref.current;if(!el)return;const query=window.matchMedia('(prefers-reduced-motion: reduce)');let observer:IntersectionObserver|undefined;
- const setup=()=>{observer?.disconnect();if(query.matches){setActive(false);return;}observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){setActive(true);observer?.disconnect();}},{rootMargin:'120px'});observer.observe(el);};
- setup();query.addEventListener('change',setup);return()=>{observer?.disconnect();query.removeEventListener('change',setup);};},[]);
+ useEffect(()=>{const el=ref.current;if(!el)return;const query=window.matchMedia('(prefers-reduced-motion: reduce)');let observer:IntersectionObserver|undefined;let warmer:IntersectionObserver|undefined;
+ const setup=()=>{observer?.disconnect();warmer?.disconnect();if(query.matches){setActive(false);return;}observer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){setActive(true);observer?.disconnect();}},{rootMargin:margin});observer.observe(el);if(preload){warmer=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){void preload();warmer?.disconnect();}},{rootMargin:'200px'});warmer.observe(el);}};
+ setup();query.addEventListener('change',setup);return()=>{observer?.disconnect();warmer?.disconnect();query.removeEventListener('change',setup);};},[margin,preload]);
  return {ref,active};
 }
 export function BitsReveal({children,delay=0}:{children:ReactNode;delay?:number}){
@@ -20,6 +23,15 @@ export function BitsReading({text}:{text:string}){
 }
 const blurFrom={filter:'blur(4px)',opacity:.7,y:24};const blurTo=[{filter:'blur(0px)',opacity:1,y:0}];const blurEase=[.22,1,.36,1] as [number,number,number,number];
 export function BitsName({text}:{text:string}){
- const {ref,active}=useNearViewport<HTMLSpanElement>();
+ const {ref,active}=useNearViewport<HTMLSpanElement>('0px 0px -18%',loadBlur);
  return <span ref={ref} className="about-blur-line"><Suspense fallback={<span>{text}</span>}>{active?<BlurText text={text} className="about-blur-text" animateBy="words" trigger="load" animationFrom={blurFrom} animationTo={blurTo} easing={blurEase} stepDuration={.65} delay={50}/>:<span>{text}</span>}</Suspense></span>;
+}
+
+export function BitsFloat({text}:{text:string}){
+ const {ref,active}=useNearViewport<HTMLSpanElement>();
+ return <span ref={ref} className="contact-float-line"><Suspense fallback={<span>{text}</span>}>{active?<ScrollFloat splitBy="chars" distance={48} stretch={1} stagger={.025} ease="power3.out" scrollStart="top 88%" scrollEnd="top 42%" smoothing={.55}>{text}</ScrollFloat>:<span>{text}</span>}</Suspense></span>;
+}
+export function BitsCount({value}:{value:number}){
+ const {ref,active}=useNearViewport<HTMLElement>('0px 0px -12%');
+ return <strong ref={ref}><span className="sr-only">{value}</span><span aria-hidden="true"><Suspense fallback={value}>{active?<CountUp to={value} duration={.7} easing="expo" trigger="load"/>:value}</Suspense></span></strong>;
 }

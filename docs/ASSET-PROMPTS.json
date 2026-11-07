@@ -25,5 +25,16 @@
     "prompt": "Use case: product-mockup / photorealistic-natural. Asset: one striking photographic campaign still for a fictional beverage concept, to be clearly labeled as a concept on EF Agency's portfolio. Make a wide landscape close-up, premium independent photography, not a 3D product render. A single real human hand grips a chilled clear glass soda bottle containing pale golden citrus liquid. The bottle has a completely blank, tiny uncoated ivory paper label, no typography or brand. Condensation droplets are irregular and believable. Hard direct-flash sunlight, a deep cobalt blue painted outdoor wall, one slice of sharply lit orange peel at the bottom edge, tiny water splashes frozen naturally, a lived-in summer feel. Crop close with the bottle diagonally crossing from lower center toward upper right; hand enters from the right edge, anatomically correct, with natural skin texture. The composition should feel surprising, bold and tactile like a still from an actual drinks campaign, with strong rich blue and pale yellow liquid contrast, not overly perfect CGI. Keep the left third comparatively quiet for later digital type. Crisp small highlight on the bottle and physically correct glass refraction. No words, no logo, no watermark, no fake UI, no floating bottle, no glowing liquid, no artificial lens flare. Preserve a strong center crop for mobile.",
     "usage": "Illustrativt koncept, ikke EF Agency-kundeprojekt",
     "kind": "AI-generering"
+  },
+  {
+    "file": "hero-mobile-v4.jpg",
+    "tool": "image_gen.imagegen",
+    "transparent_background": false,
+    "prompt": "Use case: identity-preserve / compositing. Edit target: the supplied EF Agency campaign photograph. Create a portrait 9:16 mobile-web hero adaptation of this EXACT photographic world, not a website mockup. Preserve the adult athlete's cobalt blue technical windbreaker, pale grey trousers, turned-away head, dynamic forward stair-climbing gesture, dark brutalist concrete stairs, blue-hour flash lighting and tactile grain. Recompose and widen the camera view so the athlete reads as a coherent person, including the head and at least the knees, rather than a giant chopped sleeve. Place the entire figure in the RIGHTMOST 42 percent of the portrait, primarily between 42 and 95 percent of the canvas height, stepping upwards and away. Keep the TOP 40 percent and LEFT 55 percent as calm, naturally dark charcoal concrete architecture with believable deep shadows for later readable HTML text and buttons. Preserve the small warm architectural light, but keep it subtle. This is an art-directed portrait reframe and background extension: retain the same garment, material, scene, photographic colour and human anatomy, do not add people or change the campaign. The athlete must not occupy the left text area or be cut at the head. Real perspective and stair geometry; no stretched fabric, duplicated limbs, glow, graphic gradients, words, lettering, logos, watermark or UI. One continuous realistic portrait photograph.",
+    "edit_target": "hero-v2.jpg",
+    "kind": "AI-redigering",
+    "usage": "Særskilt mobilkomposition af illustrativt sportskoncept; ikke kundeprojekt",
+    "generated_source": "exec-bb4db904-466a-4ab9-819d-bb81ea2ce515.png",
+    "adaptation": "9:16 portræt; JPEG 83 via sips, 941 × 1672"
   }
 ]

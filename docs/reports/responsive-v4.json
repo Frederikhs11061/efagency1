@@ -1,0 +1,90 @@
+[
+  {
+    "cta": 491.171875,
+    "h": 844,
+    "overflow": 0,
+    "top": 0,
+    "unloaded": 0,
+    "w": 320
+  },
+  {
+    "cta": 514.4921875,
+    "h": 844,
+    "overflow": 0,
+    "top": 0,
+    "unloaded": 0,
+    "w": 360
+  },
+  {
+    "cta": 535.1015625,
+    "h": 844,
+    "overflow": 0,
+    "top": 0,
+    "unloaded": 0,
+    "w": 375
+  },
+  {
+    "cta": 544.0078125,
+    "h": 844,
+    "overflow": 0,
+    "top": 0,
+    "unloaded": 0,
+    "w": 390
+  },
+  {
+    "h": 1000,
+    "overflow": 0,
+    "top": 0,
+    "unloaded": 0,
+    "w": 768
+  },
+  {
+    "h": 1000,
+    "overflow": 0,
+    "top": 0,
+    "unloaded": 0,
+    "w": 1024
+  },
+  {
+    "h": 1000,
+    "overflow": 0,
+    "top": 0,
+    "unloaded": 0,
+    "w": 1280
+  },
+  {
+    "h": 1000,
+    "overflow": 0,
+    "top": 0,
+    "unloaded": 0,
+    "w": 1440
+  },
+  {
+    "w": 390,
+    "h": 667,
+    "top": 0,
+    "overflow": 0,
+    "cta_bottom": 500.875
+  },
+  {
+    "w": 360,
+    "h": 640,
+    "top": 0,
+    "overflow": 0,
+    "cta_bottom": 484.6328125
+  },
+  {
+    "w": 844,
+    "h": 390,
+    "top": 0,
+    "overflow": 0,
+    "cta_bottom": 285.5859375
+  },
+  {
+    "w": 1280,
+    "h": 720,
+    "top": 0,
+    "cta_bottom": 685,
+    "purpose": "Default browser viewport after reset"
+  }
+]

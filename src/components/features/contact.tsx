@@ -9,7 +9,7 @@ export function Contact({email,packages}:{email:string,packages:string[]}) {
  e.preventDefault();const fd=new FormData(e.currentTarget);const parsed=contactSchema.safeParse(Object.fromEntries(fd));
  if(!parsed.success){setStatus('Udfyld navn, en gyldig e-mail og mindst 10 tegn om dit projekt.');return;}
  window.location.href=buildContactMailto(email,parsed.data);
- setStatus('Din mailapp åbnes med beskeden. Send den derfra for at kontakte os.');
+ setStatus('Dit mailudkast er klar. Send det fra din mailapp. Hvis den ikke åbner, kan du skrive til adressen ovenfor.');
  }}>
  <div className="field-row"><label>Dit navn<input name="name" autoComplete="name" minLength={2} maxLength={100} required placeholder="Hvad hedder du?"/></label><label>Din e-mail<input name="email" type="email" autoComplete="email" required placeholder="dig@virksomhed.dk"/></label></div>
  <label>Hvad har du i tankerne?<textarea name="message" required minLength={10} maxLength={3000} rows={3} placeholder="Fortæl lidt om din virksomhed og den slags indhold, du drømmer om."/></label>

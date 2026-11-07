@@ -1,0 +1,1241 @@
+[
+  {
+    "antipattern": "design-system-radius",
+    "name": "Radius outside DESIGN.md",
+    "description": "A border-radius value is outside the DESIGN.md rounded scale. Use a documented radius token or update the design system if the new shape is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 14,
+    "snippet": "border-radius: 8px is outside the DESIGN.md rounded scale",
+    "advisory": true,
+    "ignoreValue": "8px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 17,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 17,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 18,
+    "snippet": "font-size: 17px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "17px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 19,
+    "snippet": "font-size: clamp(68px,7vw,110px) has fluid endpoints 68px and 110px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "68px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 19,
+    "snippet": "font-size: clamp(92px,10vw,165px) has fluid endpoints 92px and 165px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "92px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 19,
+    "snippet": "font-size: 18px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "18px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 20,
+    "snippet": "font-size: clamp(44px,5vw,76px) has fluid endpoints 44px and 76px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "44px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 21,
+    "snippet": "font-size: 20px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "20px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 21,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 23,
+    "snippet": "font-size: 28px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "28px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 23,
+    "snippet": "font-size: 98px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "98px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 24,
+    "snippet": "font-size: clamp(90px,11vw,170px) has fluid endpoints 90px and 170px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "90px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 24,
+    "snippet": "font-size: 24px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "24px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 24,
+    "snippet": "font-size: 29px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "29px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 24,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 25,
+    "snippet": "font-size: clamp(65px,6vw,95px) has fluid endpoints 65px and 95px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "65px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 25,
+    "snippet": "font-size: 17px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "17px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 26,
+    "snippet": "font-size: clamp(100px,13vw,200px) has fluid endpoints 100px and 200px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "100px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 26,
+    "snippet": "font-size: 20px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "20px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 26,
+    "snippet": "font-size: clamp(18px,2vw,28px) has fluid endpoints 18px and 28px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "18px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 26,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 27,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 27,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 27,
+    "snippet": "font-size: clamp(65px,9vw,120px) has fluid endpoints 65px and 120px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "65px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 27,
+    "snippet": "font-size: 28px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "28px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 29,
+    "snippet": "font-size: clamp(110px,10.5vw,160px) has fluid endpoints 110px and 160px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "110px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 30,
+    "snippet": "font-size: 24px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "24px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: clamp(108px,14vw,130px) has fluid endpoints 108px and 130px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "108px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 88px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "88px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 95px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "95px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 110px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "110px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 18px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "18px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 53px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "53px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 92px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "92px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 20px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "20px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 100px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "100px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 19px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "19px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 25px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "25px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 86px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "86px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 31,
+    "snippet": "font-size: 135px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "135px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 32,
+    "snippet": "font-size: 43px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "43px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 33,
+    "snippet": "font-size: clamp(74px,23vw,130px) has fluid endpoints 74px and 130px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "74px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 68px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "68px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 95px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "95px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 17px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "17px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 14px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "14px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 80px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "80px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 46px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "46px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 72px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "72px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 22px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "22px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 55px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "55px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 27px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "27px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 88px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "88px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: clamp(86px,22vw,110px) has fluid endpoints 86px and 110px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "86px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 20px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "20px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 18px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "18px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 66px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "66px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 34,
+    "snippet": "font-size: 24px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "24px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: clamp(70px,22.6vw,82px) has fluid endpoint 82px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "82px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: 83px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "83px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: 63px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "63px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: 69px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "69px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: 41px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "41px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: 65px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "65px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: 62px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "62px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: 77px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "77px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 35,
+    "snippet": "font-size: 21px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "21px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 44,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 47,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 51,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 58,
+    "snippet": "font-size: 12px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "12px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 58,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 58,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 60,
+    "snippet": "font-size: 24px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "24px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 64,
+    "snippet": "font-size: 19px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "19px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 64,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/app/globals.css",
+    "line": 65,
+    "snippet": "font-size: 20px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "20px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/components/AnimatedContent.tsx",
+    "line": 47,
+    "snippet": "Undocumented color #000 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#000"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "/Users/frederikhs1106/Documents/Codex/2026-11-07/jeg-sendte-det-her-til-claude-5/outputs/ef-agency/src/components/AnimatedContent.tsx",
+    "line": 50,
+    "snippet": "Undocumented color #000 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#000"
+  }
+]
