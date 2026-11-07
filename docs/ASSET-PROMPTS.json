@@ -1,0 +1,29 @@
+[
+  {
+    "file": "hero-v2.jpg",
+    "tool": "image_gen.imagegen",
+    "transparent_background": false,
+    "prompt": "Use case: photorealistic-natural. Asset: the full-bleed opening photograph for EF Agency, an independent short-form content studio website. Make one ultra-wide landscape photograph, not a website mockup. Photographic art direction: a real-feeling premium sports/fashion editorial shot with direct on-camera flash at blue-hour dusk, subtle authentic film grain and believable natural textures. A single adult athlete in an oversized cobalt-blue technical windbreaker and pale grey trousers is caught in a dynamic sideways stride across a brutalist concrete stairwell. Position the athlete in the RIGHT third of the composition, with body and extended sleeve creating a strong diagonal; the face is naturally turned away or cropped near the upper-right, not a recognizable portrait. The LEFT 50 percent is a dark charcoal concrete wall and deep architectural shadow, extremely calm and uncluttered, providing genuine negative space for a white website headline that will be overlaid later. Cold concrete, a blue windbreaker, very small yellow-orange reflected highlights, graphite shadows. Low camera angle, 35mm lens, a touch of real directional motion blur only in the fabric, realistic hands and anatomy. Make it look like a crafted independent campaign still, candid and tactile rather than glossy stock or CGI. Protect useful composition for both 16:9 and a vertical crop centered on the right-side athlete. No words, no typography, no logos, no labels, no watermark, no graphical frames, no gradients or glow effects. One coherent photographic scene.",
+    "usage": "Illustrativt koncept, ikke EF Agency-kundeprojekt",
+    "kind": "AI-generering"
+  },
+  {
+    "file": "ritual-v2.jpg",
+    "tool": "image_gen.imagegen",
+    "transparent_background": false,
+    "prompt": "Use case: lighting-weather / precise-object-edit. This supplied real photograph is the edit target, not merely a mood reference. Create a refined art-directed campaign plate for a coffee concept on an independent content studio's website. Preserve the distinctive original glass pour-over coffee maker, paper filter, metal gooseneck kettle, pouring action, the real hand shape and grip, and the believable physical geometry. Reframe as a close, cinematic landscape still with the kettle spout and rich coffee surface especially visible. Change the lighting and background: remove the distracting cafe clutter and turquoise window impression, replace it with a restrained deep chocolate-brown shadowed backdrop and a warm amber side light catching the glass and steam. Keep enough honest texture and imperfect reflections to look like a real still photographed on set. Rich near-black browns, natural skin, silver kettle, cream paper, warm coffee. Dark shadows, directional light, realistic tactile details, restrained analog grain. Not a glossy 3D render, not surreal, no floating objects. Keep the image free of lettering, logos, graphic overlays and watermarks. This must read as an intentional photographic advertisement still, not a generic stock image. Output a wide landscape image; preserve a useful center composition for portrait crops.",
+    "usage": "Illustrativt koncept, ikke EF Agency-kundeprojekt",
+    "input": "coffee.jpg",
+    "source": "https://images.unsplash.com/photo-1442512595331-e89e73853f31",
+    "license": "https://unsplash.com/license",
+    "kind": "AI-redigering"
+  },
+  {
+    "file": "fresh-v2.jpg",
+    "tool": "image_gen.imagegen",
+    "transparent_background": false,
+    "prompt": "Use case: product-mockup / photorealistic-natural. Asset: one striking photographic campaign still for a fictional beverage concept, to be clearly labeled as a concept on EF Agency's portfolio. Make a wide landscape close-up, premium independent photography, not a 3D product render. A single real human hand grips a chilled clear glass soda bottle containing pale golden citrus liquid. The bottle has a completely blank, tiny uncoated ivory paper label, no typography or brand. Condensation droplets are irregular and believable. Hard direct-flash sunlight, a deep cobalt blue painted outdoor wall, one slice of sharply lit orange peel at the bottom edge, tiny water splashes frozen naturally, a lived-in summer feel. Crop close with the bottle diagonally crossing from lower center toward upper right; hand enters from the right edge, anatomically correct, with natural skin texture. The composition should feel surprising, bold and tactile like a still from an actual drinks campaign, with strong rich blue and pale yellow liquid contrast, not overly perfect CGI. Keep the left third comparatively quiet for later digital type. Crisp small highlight on the bottle and physically correct glass refraction. No words, no logo, no watermark, no fake UI, no floating bottle, no glowing liquid, no artificial lens flare. Preserve a strong center crop for mobile.",
+    "usage": "Illustrativt koncept, ikke EF Agency-kundeprojekt",
+    "kind": "AI-generering"
+  }
+]

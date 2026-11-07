@@ -1,17 +1,20 @@
 # Animation
 
-| Sektion | Bibliotek | Effekt | Formål |
-|---|---|---|---|
-| Hele sitet | Lenis | Én global provider, native touch, synkroniseret med GSAP-ticker | Kontrolleret smooth scroll |
-| Hero-overskrift | React Bits BlurText, tilpasset | Ordvis forskydning i server/CSS-adapter, uden blur/spring og med synlig servertekst | Typografisk ankomst under ét sekund |
-| Hero-billede | GSAP / ScrollTrigger | Parallax og skalering af 9:16-udsnitsrammen på desktop | Vise overgangen fra optagelse til socialt format |
-| Konceptsekvens | React + CSS | Brugerstartet sekvens af tre visuelle retninger, afsluttes automatisk | Et kort indtryk af mulige contentudtryk, ikke et kundeshowreel |
-| Kompetencebånd | Magic UI Marquee | Vandret tekstbånd; pause ved hover og global pause | Kompakt visuelt rytmeskift |
-| Ydelser og sektioner | GSAP | Scoped scroll-reveals fra allerede synlig tekst | Rolig progression |
-| Koncepter | GSAP | Diskret billedparallax på produktbilledet | Billeddybde uden at bevæge teksten |
-| Proces | GSAP | Sticky forklaring og en scrollstyret statuslinje | Forbinde fire reelle procestrin |
-| CTA og links | CSS | Pilens transform på hover/fokus | Tydelig og let respons |
+| Sektion | Bibliotek | Effekt og formål |
+|---|---|---|
+| Hele siden | Lenis + GSAP-ticker | Én global scrollmotor, native touch og cleanup |
+| Hero | CSS + GSAP/ScrollTrigger | Kort tekstankomst, forskellig billed-/tekstbevægelse ved desktop-scroll |
+| Hero-CTA og kontakt | React Bits Magnet | Begrænset mus-respons på 4–5 px, uden pil eller autoplay |
+| Konceptbilleder | GSAP/ScrollTrigger | Kontrolleret skalering og billedpanorering bundet til scroll |
+| Ydelsestitel | React Bits SplitText | Faktisk GSAP-opdeling af ord og kort forskudt ankomst |
+| Ydelsesrækker og stifterbio | React Bits AnimatedContent | Synlig servertekst, kort målrettet reveal |
+| Stifternavne | React Bits BlurText | Afklaring fra en mild blur og 24 px bevægelse, én gang |
+| Om os-introduktion | React Bits ScrollReveal | Ord fremhæves ved scroll fra allerede læsbar opacity 0,7 |
+| Billedbånd | Magic UI Marquee + GSAP | Officiel komponentstruktur, bevægelse bundet til scroll, ingen autonom løkke |
+| Kontaktoverskrift | GSAP | Kort forskudt entré af linjer |
 
-React Bits og Magic UI er installeret fra officielle registre. React Bits-kilden er efterfølgende reduceret til den brugte ord-animation: ingen filteranimation, loops, effekter eller døde kodeveje. Skærmlæsere får én samlet tekst via H1. Heroens word-stagger starter ved første paint i CSS; dette undgår en særskilt motion-hydrering. Scrollmotoren lazy-loades ved første scroll-, hjul-, touch- eller tastaturinteraktion. Kilder er angivet i THIRD_PARTY.md.
+De fem React Bits-komponenter er installeret fra det officielle registry i TS/Tailwind med shadcn CLI. De anvendes reelt. Kilde, licens og tilpasninger: THIRD_PARTY.md og docs/licenses/react-bits-LICENSE.md.
 
-Lenis og GSAP registreres centralt. Hver animation ejer sine egne elementer/properties; motion og GSAP overlapper ikke. Cleanup fjerner ticker, scroll-lytter og matchMedia-kontekst og genskaber tickerens lag-smoothing. Reduceret bevægelse udelader Lenis og GSAP, stopper marquee og viser teksten uden transform. Mobil undlader parallax/scroll-frame og sticky procesforklaring. Pausekontrollen stopper den kontinuerlige marquee og scroll-effekterne. Konceptsekvensen har sin egen stopknap og stopper automatisk efter 5,4 sekunder. Ingen WebGL eller videoautoplay.
+SplitText, AnimatedContent, BlurText og ScrollReveal lazy-loades tæt på deres sektion. Før aktivering er teksterne fuldt synlige i server-HTML. AnimatedContent ejer sine egne wrappers; ScrollReveal ejer ordenes opacity; BlurText ejer sine ord; GSAP-scrollmotoren ejer de øvrige eksplicitte elementer. Ingen to motorer animerer samme property på samme element.
+
+Lenis og ScrollTrigger er synkroniseret med én ticker. Cleanup fjerner lyttere, ticker og scopes. Reduced motion giver almindelig tekst og statiske billeder. Magnet følger pointer/reduced-motion og er begrænset til små bevægelser; touch ignoreres. Der er ingen pause/play-knap og ingen løbende autonom marquee. Bevægelse fra scroll stopper, når brugeren stopper.

@@ -1,7 +1,7 @@
 # Struktur
 | URL | Type | H1 | Forælder | Indeksering nu |
 |---|---|---|---|---|
-| / | Forside/onepager | Kortvideoer. Langt mere opmærksomhed. | – | Nej |
+| / | Forside/onepager | Ikke bare endnu et opslag. | – | Nej |
 | /privatliv | Information | Privatliv | / | Nej |
 | /cookies | Information | Cookies | / | Nej |
 | /samarbejde | Information | Om et samarbejde | / | Nej |

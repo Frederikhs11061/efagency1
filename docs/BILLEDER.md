@@ -1,7 +1,17 @@
-# Billeder
+# Billeder og logo
 
-Tre lokalt gemte Unsplash-fotos bruges til tydeligt mærkede illustrationer: filmklap, pour-over-kaffe og rød sko. Det er ikke billeder fra EF Agencys eget arbejde. De to konceptretninger vises ikke som kundecases. Et synligt varemærke i produktillustrationen indebærer ikke et samarbejde.
+Den nye side bruger tre art-directede konceptmotiver. Hero/TEMPO og FRISK er skabt med image_gen.imagegen. RITUAL er en faktisk redigering af det oprindelige kaffefoto: lys, farver og baggrund er ændret, mens kande, filter, hånd og hældning er bevaret som udgangspunkt. Originalen coffee.jpg er bevaret separat. Alle tre er tydeligt mærkede visuelle koncepter, ikke kundearbejde eller dokumentariske optagelser fra EF Agency.
 
-Præcise billed-URL'er og licenshenvisning findes i public/images/CREDITS.json. Unsplash-licensen: https://unsplash.com/license. Før offentlig brug bør ejeren godkende de endelige billeder og håndtere eventuelle varemærke-/personrettigheder; licensen til billedfilen er ikke en godkendelse fra de afbildede.
+| Fil | Anvendelse | Oprindelse |
+|---|---|---|
+| public/images/hero-v2.jpg | Hero, TEMPO og billedbånd | AI-genereret kampagnestill, koboltblå jakke på betontrappe |
+| public/images/ritual-v2.jpg | RITUAL og billedbånd | AI-redigeret fra coffee.jpg, varmt sidelys og mørk baggrund |
+| public/images/fresh-v2.jpg | FRISK og billedbånd | AI-genereret, umærket drikkevare med flashlys |
+| public/images/logo-light.svg | Mørke flader | Kontureret EF-ordmærke i SVG |
+| public/images/logo-dark.svg | Lyse flader og genbrug | Samme identitet i mørk variant |
 
-Manrope og Instrument Sans er selvhostede; SIL Open Font License ligger sammen med fontfilerne. Ingen fontforespørgsler sendes til Google fra browseren. Logo og favicon er nye typografiske designforslag.
+De præcise prompts og redigeringskilden er gemt i ASSET-PROMPTS.json og public/images/CREDITS.json. Prompts er også indlejret i JPEG-filernes metadata. Billederne er leveret lokalt, komprimeret og serveres i responsive størrelser gennem Next Image. Der er ikke brugt billeder eller kundemateriale fra Clix eller Umault.
+
+Originalens kilde: https://images.unsplash.com/photo-1442512595331-e89e73853f31. Licens: https://unsplash.com/license. De tidligere filmklap- og skofotos er bevarede prototypeaktiver og bruges ikke på siden.
+
+Logoets eksisterende ef | agency.-udtryk er bevaret efter ejerens sidste instruktion. Bogstaverne er eksporteret til vektorkonturer fra Instrument Sans; logoet kræver ingen fontindlæsning. Barlow Condensed Bold bruges til overskrifter, Manrope til læsning. Alle fonte er lokale; OFL-licenser ligger i public/fonts.

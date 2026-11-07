@@ -1,62 +1,65 @@
-# Kvalitet og leverancestatus
+# Kvalitet — redesign v2
 
-Lokal designleverance, 7. november 2026. Intet er publiceret. Siden bygger på ejerens dokument og eksplicitte instruktion om at springe interviews og ekstra godkendelsesrunder over. Ingen manglende virksomhedsoplysninger er opfundet.
+Lokal designleverance, 7. november 2026. Ny retning efter ejerens afvisning af det tidligere udtryk. Clix Productions og Umault er undersøgt visuelt. Intet er deployet. Koden leveres til det allerede autoriserede GitHub-repository.
 
-## Faktisk verificeret
+## Verifikation
 
-| Kontrol | Resultat |
+| Kontrol | Faktisk resultat |
 |---|---|
-| Eget website-byggemanual-skill | Oprettet, fuld manual med som reference, quick_validate bestået og installeret i personlig skills-mappe |
-| Impeccable | Installeret projektlokalt. Context, designreferencer, audit/polish og uafhængig review anvendt. Detektoren returnerede [] ved kørslen; senere rettelser retter a11y/konkrete reviewfund |
-| Lint, TypeScript strict og produktionsbuild | Bestået uden fejl; Next.js App Router statisk hovedindhold |
-| Afhængigheder | npm audit: 0 kendte sårbarheder; testede versionsnumre låst, lockfil medleveret |
-| HTML uden browser-JavaScript | Alle fem indholdsruter svarer 200 med én H1, dansk sprog, vigtig tekst, FAQ, navne og mail i det rå svar |
-| Links og sikkerhedsheadere | Samlet kontrol bestået, ankre findes, interne ruter svarer 200 |
-| Indeksering | Lokal noindex, robots disallow og tomt sitemap kontrolleret. Admin og editor-API er 404 i produktion |
-| Mobil og desktop | 320, 360, 375, 390, 768, 1024, 1280 og 1440 CSS-px set. Ingen vandret overflow. Begge hero-handlinger over folden på 844 px høj telefon. Pauseknap 44×44 px på alle bredder |
-| Menu og tastatur | Mobilmenu åbnet og lukket med Escape. Fokus returnerer til menuknappen. Navigation og retur til top afprøvet |
-| FAQ og koncepter | Native details åbnet/lukket. Begge konceptfotos set indlæst; endelige screenshots taget fra dokumentets top efter billedindlæsning |
-| Kontakt | Ugyldig e-mail stoppet af browseren. Mailudkastets modtager, danske tegn, linjeskift og validering testet uden afsendelse. Ingen mail sendt |
-| Lokal editor | Keystatic læser indholdsfilen og kunne gemme en midlertidig tekstændring. Testteksten er fjernet, endeligt indhold gendannet og ny produktionsbuild kørt |
-| Motion i rigtig browser | Lenis/GSAP aktiveret; ved scroll 0→840 ændredes crop-frame scale 1,4916→1,0731 og billedets Y-position 17,8→40,0 px. Konceptsekvens startede, viste andet frame og kunne stoppes. Pause afprøvet |
+| Byggemanual-skill | Oprettet fra hele ejerens dokument, valideret og installeret; projektkopi medleveret |
+| Impeccable | Ny retning, concept-seed, craft-floor, detector, uafhængig finish review og designdokumentation |
+| Build, lint og typer | Produktionsbuild og TypeScript strict bestået; lint bestået |
+| Afhængigheder | npm audit --omit=dev: 0 kendte sårbarheder i produktionsafhængigheder |
+| Serverindhold og links | Fem indholdsruter svarer 200, én H1, dansk sprog, FAQ/navne/ydelser/mail i rå HTML; interne links og ankre kontrolleret |
+| Sikkerhed og indeksering | Headere kontrolleret; noindex, robots disallow og tomt sitemap; Keystatic/API svarer 404 i produktion |
+| Responsive skærme | 320, 360, 375, 390, 768, 1024, 1280 og 1440 CSS-px undersøgt med indlæste billeder; intet vandret overløb |
+| Interaktion | Native koncepter og FAQ, mobilmenu, Escape og tilbageført fokus afprøvet |
+| Kontakt | Browseren afviser ugyldig mail. Mailudkastets validering, danske tegn og linjeskift er testet; ingen besked sendt |
+| Bevægelse | Pause/play er fjernet. Hero, billeder og billedbånd er styret af scroll; tekst bruger CSS, React Bits og målrettede GSAP-entréer. Ny browserkontrol dokumenteres nedenfor |
+| Lokal indholdseditor | Den nye models hovedoverskrifter, konceptbilleder/-tekster og proces er indlæst korrekt i Keystatic. Gemning blev testet i første udgave; ingen ny gemmerunde påstås her |
+| Billedværktøj | To genererede kampagnestills og én faktisk redigering af kaffefoto; præcise prompts og kilder gemt. Metadata-scan: 6 rasterfiler, 0 manglende |
 
-## Lighthouse, mobil
+Detektoren gav ét advisory om en hoverfarve uden for den foreløbige palette; farven er erstattet af den eksisterende linjefarve. Resultatet gemmes ærligt i reports/impeccable-detect.json. Der er ikke kørt en anden detektor for at fremstille et kunstigt rent resultat.
 
-Rapport: [Lighthouse mobil](reports/lighthouse-mobile.html). Kørt én ad gangen mod produktionsbuild på localhost med devtools-throttling. Dette er laboratorieværdier, ikke feltdata.
+## Lighthouse
 
-| Kategori/måling | Målt |
+[Ny mobilrapport](reports/lighthouse-mobile.html), målt sekventielt på produktionsbuild med devtools-throttling. Målingen er fra den nye produktionsbuild med fem faktisk integrerede React Bits-komponenter og de ønskede CTA-/linkrettelser. Gamle v1-rapporter ligger separat i reports/v1 og er ikke den nye sides resultater.
+
+| Måling | Resultat |
 |---|---:|
-| Performance | 98 |
+| Performance | 97 |
 | Tilgængelighed | 100 |
 | Best practices | 96 |
 | SEO | 66 |
-| Agentic browsing (ekstra kategori) | 100 |
-| LCP | 1,8 s |
-| CLS | 0,001 |
-| Total Blocking Time | 70 ms |
+| Agentic browsing | 100 |
+| LCP | 1,7 s |
+| CLS | 0 |
+| Total Blocking Time | 150 ms |
 
-SEO-scoren skyldes blandt andet den udtrykkeligt ønskede lokale/noindex-tilstand. Indekserbarhed aktiveres først med et rigtigt domæne og en senere lanceringsbeslutning. CLS er under 0,1, men er ikke præcis 0. TBT er ikke INP; felt-INP er ikke målt. Best-practices-rapporten markerer blandt andet CSP's kendte inline-script-kompromis.
+LCP er under 2,5 s og CLS under 0,1. Performance-målet 95 er nået i denne måling. SEO påvirkes af den tilsigtede noindex-tilstand. Best-practices markerer CSP's kendte inline-script-kompromis. Laboratoriemålinger er ikke feltdata; INP er ikke målt.
 
-## Bevidste afgrænsninger og uafsluttede lanceringspunkter
+## Grænser før lancering
 
-- Ejer har bedt om lokal levering. Domæne, hostingkonti, DNS, Search Console og Google Business Profile er derfor ikke oprettet eller ændret.
-- Registreret navn, CVR, adresse, momsstatus og egentlige aftalevilkår mangler. Ingen priser er annonceret, før momsstatus er afklaret. Juridiske informationssider er lokale udkast, ikke en påstand om en færdig offentlig compliance-gennemgang.
-- Ingen dokumenterede kundecases eller portrætter findes. Koncepter er mærket, og stockbillederne er ikke fremstillet som egne produktioner. Billed- og varemærkegodkendelse før lancering står i docs/BILLEDER.md.
-- Kontakt er et mailudkast. Der findes ingen serverafsendelse, Resend, Redis eller modtagelsestest. Tilføjes dette, skal manualens fulde API-sikkerhed implementeres og testes.
-- Intet tracking, annoncer eller analyseværktøj er installeret, og derfor intet samtykkebanner. Senere tracking kræver separat korrekt opsætning.
-- Reduceret bevægelse er implementeret i CSS, media queries og Lenis/GSAP-cleanup. Browserens pausealternativ er afprøvet. Selve OS-/browserindstillingen prefers-reduced-motion er ikke særskilt emuleret i denne session.
-- Rå HTML er verificeret uden JavaScript. En separat browsergennemgang med JavaScript helt deaktiveret er ikke udført; no-JS-navigation og mailto-fallback findes i server-HTML.
-- Keystatic dækker hero, ydelser, pakker, stiftere, kontaktoplysninger og FAQ. Øvrige overskrifter, proces/koncepttekster og juridisk tekst er fortsat redaktionel kildekode; se docs/INDHOLD.md.
-- CSP tillader inline-scripts/styles til statisk Next.js. Nonce-/hash-hærdning er ikke implementeret. HSTS udsendes kun ved senere HTTPS-domæne.
-- Google Rich Results/Schema Markup Validator og domænebaseret canonical/sitemap-konsistens er ikke eksternt testet: domænet findes ikke endnu. Lastmod er indholdsbaseret og bliver ikke sat til byggetid.
-- Koden leveres også til GitHub-repoet https://github.com/Frederikhs11061/efagency1 efter ejerens efterfølgende anmodning. Ingen offentlig deploy er foretaget.
+Registreret virksomhedsnavn, CVR/adresse, momsstatus, domæne og endelige aftale-/privatlivsvilkår mangler fortsat. Ingen kunder, resultater, portrætter eller adresser er opfundet. Koncepter er synligt mærket og AI-bearbejdning oplyst. Kontaktfeltet åbner et mailudkast; der er ingen serverafsendelse eller verificeret mailmodtagelse. Ingen tracking eller annoncepixels er installeret.
 
-## Dokumenter
+Reduceret bevægelse er implementeret i CSS, React Bits og GSAP/Lenis med statisk alternativ. Selve OS-indstillingen er ikke særskilt emuleret. Rå HTML er kontrolleret; en særskilt browserrunde med JavaScript helt deaktiveret er ikke udført.
 
-BRIEF.md: kilder, designbeslutninger og mangler. STRUKTUR.md: ruter og index-politik. ANIMATION.md: biblioteker, effekter, cleanup og fallback. INDHOLD.md: redigering og datoer. BILLEDER.md/CREDITS.json: kilder og rettigheder. SECURITY.md: sikkerhed og serverafsendelse før en eventuel lancering.
+Lokale redigerbare tekster omfatter nu også alle hovedoverskrifter, konceptbilleder/-beskrivelser og proces. Juridisk information ligger fortsat i sin sidekomponent. Se INDHOLD.md.
 
-## Uafhængig slutgennemgang
+Siden forbliver lokal/noindex. Ekstern schema-validering, domæne, DNS, Search Console, hosting og lancering er ikke udført.
 
-Impeccable-reviewerens afsluttende disposition er **ship for de fire vurderede rettelser**: retningskontrakten, fjernede dekorative overtekster, 44×44-trykflader og pauseknappens overlap er scoret løst. Alle ti endelige captures er vurderet gyldige med begge konceptfotos synlige. Dette er ikke en ekstern certificering eller en samlet produktionsgodkendelse; domæne, virksomhedsoplysninger og lanceringspunkter ovenfor består som åbne.
+## Uafhængig Impeccable-gennemgang
 
-Impeccable-documenter har skrevet DESIGN.md og .impeccable/design.json ud fra faktisk CSS, skrifter, komponenter og skærmbilleder. Ingen tidligere kundegodkendelse eller ekstern komposition er opfundet.
+Den friske gennemgang vurderede den nye verdens typografi, fotografiske materiale, farvegrund, første skærmbillede og indholdsforløb som match. Tre materielle fund blev rettet: Frederiks rollebetegnelse, mellemrum i pakkelinks og misvisende pile ved ydelser uden link.
+
+Afsluttende disposition er **ship for de tre vurderede rettelser**. Alle tolv krævede captures blev genlæst og vurderet gyldige; ingen regressioner fra rettelserne blev fundet. Dette er en vurdering af rettelseslisten, ikke en ekstern certificering eller et udsagn om, at alle lanceringspunkter er afsluttet. Se reports/impeccable-review-v2.md.
+
+## Ejerens seneste refinement
+
+Alle otte bredder er genkontrolleret efter de fire ekstra React Bits-komponenter. Tolv endelige captures er taget fra dokumentets top med alle billeder indlæst. Ingen vandret overflow, ingen SVG-pile i links og ingen pause/play-kontrol. De små koncept-/AI-fodnoter er fjernet som ønsket; almindelig introduktion og billedkilder bevarer koncepternes oprindelse.
+
+I browseren er 3 BlurText-navnelinjer, 25 ScrollReveal-ord, 2 SplitText-ord og 2 Magnet-instanser verificeret aktive. AnimatedContent bruges til ydelsesrækker og stifterbio. Console gav ingen fejl eller advarsler efter aktivering. Mobilmenu lukker med Escape og tilbagefører fokus; ugyldig mail afvises fortsat af browseren. Billedbåndets CSS-animation er none; dens forskydning styres af scroll. Se REFINEMENT.md og ANIMATION.md.
+
+## Afsluttende refinement-review
+
+Frisk fuld Impeccable-gennemgang efter ejerens konkrete screenshot: alle 12 krævede captures vurderet gyldige; ingen renderet manglende eller modsagt del og ingen visuel fejl fundet i finpudsningen. Den eneste materielle rettelse var forældet designdokumentation. DESIGN.md, design.json og retningskontrakten er opdateret; reviewerens afsluttende **ship** dækker den vurderede dokumentationsrettelse, som er scoret løst. Se reports/impeccable-review-v3.md.

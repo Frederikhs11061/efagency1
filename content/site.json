@@ -4,32 +4,32 @@
   "email": "efagency99@gmail.com",
   "description": "EF Agency hjælper din virksomhed med at skille sig ud på sociale medier med professionelle kortvideoer og kreativt indhold, der fanger opmærksomheden.",
   "hero": {
-    "line1": "Kortvideoer.",
-    "line2": "Stort indtryk.",
-    "intro": "Vi gør dine idéer til indhold, folk stopper op ved. Kortvideoer til TikTok og Reels — fra første klip til sidste undertekst."
+    "line1": "IKKE BARE",
+    "line2": "ENDNU ET OPSLAG.",
+    "intro": "Videoredigering og content til TikTok og Reels. Vi giver dine optagelser en historie, der er værd at bruge tid på."
   },
   "services": [
     {
-      "title": "Klip, der holder fast.",
-      "description": "Dine optagelser har mere i sig. Vi finder de stærke øjeblikke, giver historien rytme og klipper det overflødige væk.",
+      "title": "Videoredigering",
+      "description": "Send dine optagelser. Vi finder historien, sætter tempoet og klipper det overflødige fra. Klar til TikTok og Instagram Reels.",
       "tags": [
-        "Videoredigering",
+        "Klipning",
         "Overgange",
         "Animation"
       ]
     },
     {
-      "title": "Et budskab, der lander.",
-      "description": "Et godt hook giver folk en grund til at blive. Undertekster, musik og effekter gør historien let at følge — også uden lyd.",
+      "title": "Undertekster & lyd",
+      "description": "Budskabet skal også fungere uden lyd. Vi giver videoen tydelige undertekster, et relevant hook og musik, der passer til udtrykket.",
       "tags": [
         "Hooks",
         "Undertekster",
-        "Musik & lyd"
+        "Musik"
       ]
     },
     {
-      "title": "Fra idé til færdigt feed.",
-      "description": "Mangler du tid, materiale eller en plan? Med Content Partner hjælper vi med idéerne, tager kameraet med og samler det hele.",
+      "title": "Idé & filmning",
+      "description": "Med Content Partner hjælper vi med idéerne og en plan for månedens indhold. Vi tager kameraet med, filmer og samler det hele.",
       "tags": [
         "Idéudvikling",
         "Contentplan",
@@ -85,7 +85,7 @@
     {
       "name": "Frederik Bech",
       "initials": "FB",
-      "role": "Co-founder · Content & marketing",
+      "role": "Co-founder · Kundekontakt & drift",
       "description": "Frederik holder styr på samarbejdet. Han tager sig af kundekontakt, aftaler, planlægning og økonomi, så der er en klar linje fra første samtale til færdig video."
     }
   ],
@@ -113,6 +113,89 @@
     {
       "question": "Hvordan kommer vi i gang?",
       "answer": "Skriv til efagency99@gmail.com eller brug mailudkastet her på siden. Fortæl kort om jeres virksomhed, så starter vi samtalen derfra."
+    }
+  ],
+  "editorial": {
+    "heroLines": [
+      "IKKE BARE",
+      "ENDNU ET",
+      "OPSLAG."
+    ],
+    "heroCta": "Lad os tale",
+    "workCta": "Se udtrykket",
+    "workTitle": "DET SKAL KUNNE MÆRKES.",
+    "workIntro": "Tre visuelle koncepter. Sport, håndværk og produkter — fortalt med hver sit udtryk.",
+    "servicesTitle": [
+      "KORT FORMAT.",
+      "STORE IDÉER."
+    ],
+    "servicesIntro": "En god video begynder med noget, der er værd at fortælle. Vi hjælper dig med at finde det, klippe det og få det ud på sociale medier.",
+    "processTitle": "FRA FØRSTE IDÉ TIL SIDSTE KLIP.",
+    "processIntro": "Tæt kontakt. En klar plan. Og dig med hele vejen.",
+    "packagesTitle": [
+      "DIT INDHOLD.",
+      "VORES HÅNDVÆRK."
+    ],
+    "packagesIntro": "Du kan starte med dine egne optagelser. Eller lade os hjælpe med hele turen fra idé til færdig video. Vi aftaler pris og omfang sammen.",
+    "aboutTitle": [
+      "EMIL.",
+      "FREDERIK.",
+      "EF AGENCY."
+    ],
+    "aboutIntro": "To kammerater. Ét fælles projekt. Vi har startet EF Agency for at hjælpe virksomheder med at vise mere af det, der gør dem til dem.",
+    "aboutBody": "Vi er et nyt bureau. Her kommer du tæt på dem, der laver indholdet, og dem, der holder styr på samarbejdet. Det er os — fra første besked til sidste klip.",
+    "faqTitle": "DET PRAKTISKE.",
+    "contactTitle": [
+      "SKAL VI",
+      "LAVE NOGET?"
+    ],
+    "contactIntro": "Fortæl os lidt om din virksomhed. En løs idé er nok at starte med.",
+    "footerLine": "Kort format. Langt fra ligegyldigt."
+  },
+  "projects": [
+    {
+      "slug": "tempo",
+      "title": "TEMPO.",
+      "subtitle": "Bevægelse, der sætter retningen.",
+      "image": "/images/hero-v2.jpg",
+      "alt": "Illustrativt kampagnekoncept: atlet i blå jakke på en mørk betontrappe.",
+      "description": "Et visuelt sportskoncept med skarpt lys, bevægelse og et tæt beskåret motiv. Tanken er korte, præcise klip med fysisk energi og en enkel fortælling.",
+      "note": "Visuelt koncept · AI-genereret illustrationsmateriale. Ikke et kundeprojekt.",
+      "type": "Sport & bevægelse"
+    },
+    {
+      "slug": "ritual",
+      "title": "RITUAL.",
+      "subtitle": "De små detaljer gør hele forskellen.",
+      "image": "/images/ritual-v2.jpg",
+      "alt": "Bearbejdet konceptfoto af kaffe, der hældes fra en stålkedel gennem et filter.",
+      "description": "Et kaffekoncept bygget på hænder, håndværk og de små ritualer. Det oprindelige foto er bearbejdet med ny baggrund og lys, så glasset og bevægelsen bærer fortællingen.",
+      "note": "Visuelt koncept · AI-bearbejdet foto. Ikke et kundeprojekt.",
+      "type": "Håndværk & stemning"
+    },
+    {
+      "slug": "frisk",
+      "title": "FRISK.",
+      "subtitle": "Et produkt med noget på hjerte.",
+      "image": "/images/fresh-v2.jpg",
+      "alt": "Illustrativt produktkoncept: hånd med kold glasflaske foran en blå væg.",
+      "description": "Et produktkoncept med direkte flashlys, farve og nære detaljer. En mulig retning til en kort produktfortælling, hvor udtrykket er lige så tydeligt som budskabet.",
+      "note": "Visuelt koncept · AI-genereret illustrationsmateriale. Ikke et kundeprojekt.",
+      "type": "Produkt & attitude"
+    }
+  ],
+  "process": [
+    {
+      "title": "Vi tager en snak.",
+      "description": "Om din virksomhed, dine kunder og den historie, du gerne vil fortælle."
+    },
+    {
+      "title": "Vi skaber retningen.",
+      "description": "Du sender optagelserne — eller vi planlægger og filmer med Content Partner."
+    },
+    {
+      "title": "Vi samler historien.",
+      "description": "Klip, undertekster, musik og en korrekturrunde. Så er indholdet klar til dit feed."
     }
   ]
 }
