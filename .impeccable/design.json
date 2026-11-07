@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-07T12:15:27.278545+00:00",
+  "title": "Design System: EF Agency",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papir",
+        "canonical": "#f3f1eb",
+        "tonalRamp": [
+          "oklch(15% 0.005 95)",
+          "oklch(25% 0.008 95)",
+          "oklch(35% 0.01 95)",
+          "oklch(45% 0.012 95)",
+          "oklch(55% 0.012 95)",
+          "oklch(70% 0.01 95)",
+          "oklch(85% 0.008 95)",
+          "oklch(95% 0.004 95)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Blæk",
+        "canonical": "#20211f",
+        "tonalRamp": [
+          "oklch(15% 0.005 95)",
+          "oklch(25% 0.008 95)",
+          "oklch(35% 0.01 95)",
+          "oklch(45% 0.012 95)",
+          "oklch(55% 0.012 95)",
+          "oklch(70% 0.01 95)",
+          "oklch(85% 0.008 95)",
+          "oklch(95% 0.004 95)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Dæmpet blæk",
+        "canonical": "#62635c",
+        "tonalRamp": [
+          "oklch(15% 0.005 95)",
+          "oklch(25% 0.008 95)",
+          "oklch(35% 0.01 95)",
+          "oklch(45% 0.012 95)",
+          "oklch(55% 0.012 95)",
+          "oklch(70% 0.01 95)",
+          "oklch(85% 0.008 95)",
+          "oklch(95% 0.004 95)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Papirkant",
+        "canonical": "#d5d4cb",
+        "tonalRamp": [
+          "oklch(15% 0.005 95)",
+          "oklch(25% 0.008 95)",
+          "oklch(35% 0.01 95)",
+          "oklch(45% 0.012 95)",
+          "oklch(55% 0.012 95)",
+          "oklch(70% 0.01 95)",
+          "oklch(85% 0.008 95)",
+          "oklch(95% 0.004 95)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Klipperød",
+        "canonical": "#c63e2d",
+        "tonalRamp": [
+          "oklch(15% 0.035 30)",
+          "oklch(25% 0.07 30)",
+          "oklch(35% 0.12 30)",
+          "oklch(45% 0.16 30)",
+          "oklch(55% 0.18 30)",
+          "oklch(70% 0.14 30)",
+          "oklch(85% 0.07 30)",
+          "oklch(95% 0.02 30)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Dyb klipperød",
+        "canonical": "#ad3325",
+        "tonalRamp": [
+          "oklch(15% 0.035 30)",
+          "oklch(25% 0.07 30)",
+          "oklch(35% 0.12 30)",
+          "oklch(45% 0.16 30)",
+          "oklch(55% 0.18 30)",
+          "oklch(70% 0.14 30)",
+          "oklch(85% 0.07 30)",
+          "oklch(95% 0.02 30)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Creme",
+        "canonical": "#fffefa",
+        "tonalRamp": [
+          "oklch(15% 0.005 95)",
+          "oklch(25% 0.008 95)",
+          "oklch(35% 0.01 95)",
+          "oklch(45% 0.012 95)",
+          "oklch(55% 0.012 95)",
+          "oklch(70% 0.01 95)",
+          "oklch(85% 0.008 95)",
+          "oklch(95% 0.004 95)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Herooverskrift; responsive afvigelser i DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Sektionstitler."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service- og indholdstitler med lokale variationer."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Læsning og forklaringer."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Primære og sekundære handlinger."
+      }
+    },
+    "shadows": [
+      {
+        "name": "motion-control",
+        "value": "0 4px 16px #20211f12",
+        "purpose": "Kun bevægelseskontrollen."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.22,1,.36,1)",
+        "purpose": "CSS-ankomst og kontrolrespons."
+      },
+      {
+        "name": "hero-word",
+        "value": "0.8s; 70ms stagger; translateY(28px → 0)",
+        "purpose": "React Bits-inspireret server/CSS-ordankomst uden blur."
+      },
+      {
+        "name": "marquee",
+        "value": "45s linear infinite",
+        "purpose": "Officiel Magic UI Marquee CSS; hover/global pause."
+      },
+      {
+        "name": "lenis",
+        "value": "duration: 1.05; syncTouch: false",
+        "purpose": "Deferred Engine; ingen motor ved reduced motion eller pause."
+      },
+      {
+        "name": "scroll-reveal",
+        "value": "y: 34; duration: .85; ease: power3.out",
+        "purpose": "GSAP-forskydning af allerede synligt indhold."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "small-mobile",
+        "value": "360px"
+      },
+      {
+        "name": "mobile",
+        "value": "600px"
+      },
+      {
+        "name": "tablet",
+        "value": "850px"
+      },
+      {
+        "name": "scroll-choreography-min",
+        "value": "900px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1150px"
+      },
+      {
+        "name": "wide-header-min",
+        "value": "1700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Rød hovedhandling med retningspil.",
+      "html": "<a class=\"ds-btn ds-primary\" href=\"#kontakt\">Lad os skabe noget<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;font-family:var(--font-body,Manrope),sans-serif;font-size:14px;font-weight:500;line-height:1.3;min-height:54px;padding:15px 21px;border:0;border-radius:0;text-decoration:none;cursor:pointer;transition:background .25s,color .25s}.ds-btn svg{transition:transform .4s var(--ease,cubic-bezier(.22,1,.36,1))}.ds-btn:hover svg{transform:translate(3px,-3px)}.ds-btn:focus-visible{outline:2px solid currentColor;outline-offset:5px}.ds-primary{background:var(--color-accent,#c63e2d);color:var(--color-cream,#fffefa)}.ds-primary:hover{background:var(--color-accent-hover,#ad3325)}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Sekundær pakkehandling med en tynd blækkant.",
+      "html": "<a class=\"ds-btn ds-outline\" href=\"#kontakt\">Tal med os<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;font-family:var(--font-body,Manrope),sans-serif;font-size:14px;font-weight:500;line-height:1.3;min-height:54px;padding:15px 21px;border:0;border-radius:0;text-decoration:none;cursor:pointer;transition:background .25s,color .25s}.ds-btn svg{transition:transform .4s var(--ease,cubic-bezier(.22,1,.36,1))}.ds-btn:hover svg{transform:translate(3px,-3px)}.ds-btn:focus-visible{outline:2px solid currentColor;outline-offset:5px}.ds-outline{background:transparent;color:var(--color-ink,#20211f);border:1px solid var(--color-ink,#20211f)}.ds-outline:hover{background:var(--color-ink,#20211f);color:var(--color-cream,#fffefa)}"
+    },
+    {
+      "name": "Contact Submit",
+      "kind": "button",
+      "refersTo": "contact-submit",
+      "description": "Stedets anvendte shadcn Button-tilpasning; mailudkastet sendes af brugeren.",
+      "html": "<button type=\"button\" class=\"ds-submit\">Skriv til os<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></button>",
+      "css": ".ds-submit{display:inline-flex;align-items:center;justify-content:center;gap:25px;min-height:52px;padding:8px 22px;border:0;border-radius:0;background:var(--color-cream,#fffefa);color:var(--color-ink,#20211f);font:500 13px/1.3 var(--font-body,Manrope),sans-serif;cursor:pointer;transition:background .25s}.ds-submit:hover{background:var(--color-paper,#f3f1eb)}.ds-submit:focus-visible{outline:2px solid currentColor;outline-offset:5px}.ds-submit:disabled{pointer-events:none;opacity:.5}"
+    },
+    {
+      "name": "Contact Field",
+      "kind": "input",
+      "refersTo": "contact-field",
+      "description": "Synlig label og transparent felt på den røde flade.",
+      "html": "<div class=\"ds-contact\"><label class=\"ds-label\">Dit navn<input class=\"ds-field\" placeholder=\"Hvad hedder du?\" autocomplete=\"name\" required></label></div>",
+      "css": ".ds-contact{padding:25px;background:var(--color-accent,#c63e2d);color:var(--color-cream,#fffefa);font-family:var(--font-body,Manrope),sans-serif}.ds-label{display:flex;flex-direction:column;font-size:12px;gap:7px}.ds-field{width:100%;background:transparent;color:inherit;border:0;border-bottom:1px solid var(--color-cream,#fffefa);border-radius:0;padding:12px 0;font:400 16px/1.6 var(--font-body,Manrope),sans-serif;caret-color:var(--color-cream,#fffefa)}.ds-field::placeholder{color:var(--color-cream,#fffefa);opacity:1}.ds-field:focus-visible{outline:2px solid currentColor;outline-offset:5px}"
+    },
+    {
+      "name": "Desktop Navigation",
+      "kind": "nav",
+      "description": "Papir, blæk og indtrækkende understregning.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Eksempelnavigation\"><a href=\"#ydelser\">Ydelser</a><a href=\"#cases\">Cases</a><a href=\"#om-os\">Om os</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;background:var(--color-paper,#f3f1eb);color:var(--color-ink,#20211f);padding:16px;font-family:var(--font-body,Manrope),sans-serif}.ds-nav a{position:relative;display:inline-flex;align-items:center;min-height:44px;font-size:14px;color:inherit;text-decoration:none}.ds-nav a:after{content:\"\";position:absolute;bottom:7px;height:1px;background:currentColor;left:0;right:0;transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease,cubic-bezier(.22,1,.36,1))}.ds-nav a:hover:after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid currentColor;outline-offset:5px}"
+    },
+    {
+      "name": "Service Tag",
+      "kind": "chip",
+      "refersTo": "service-tag",
+      "description": "Statisk servicebeskrivelse; har ingen interaktiv valgt tilstand.",
+      "html": "<span class=\"ds-tag\">Videoredigering</span>",
+      "css": ".ds-tag{display:inline-block;font:400 11px/1.6 var(--font-body,Manrope),sans-serif;color:var(--color-ink,#20211f);border:1px solid var(--color-line,#d5d4cb);padding:4px 9px;border-radius:30px;background:transparent}"
+    },
+    {
+      "name": "Package Container",
+      "kind": "card",
+      "refersTo": "package",
+      "description": "Fladt pakkefelt med stort antal og skillelinje.",
+      "html": "<article class=\"ds-package\"><h3 class=\"ds-package-title\">Edit Starter</h3><p class=\"ds-quantity\"><strong>4</strong><span>videoer<br>hver måned</span></p><p class=\"ds-description\">En enkel vej til at komme i gang. Du filmer. Vi samler historien.</p><a class=\"ds-package-link\" href=\"#kontakt\">Tal med os om Edit Starter<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a></article>",
+      "css": ".ds-package{max-width:360px;padding:30px;background:var(--color-cream,#fffefa);color:var(--color-ink,#20211f);border:1px solid var(--color-line,#d5d4cb);font-family:var(--font-body,Manrope),sans-serif}.ds-package-title{margin:0;font:500 26px/1.04 var(--font-display,\"Instrument Sans\"),sans-serif;letter-spacing:-.035em}.ds-quantity{display:flex;align-items:center;gap:20px;margin:34px 0 22px}.ds-quantity strong{font:500 100px/1 var(--font-display,\"Instrument Sans\"),sans-serif;letter-spacing:-.04em}.ds-quantity span{font-size:12px;line-height:1.5}.ds-description{font-size:16px;line-height:1.7;color:var(--color-muted,#62635c)}.ds-package-link{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:28px;border:1px solid var(--color-ink,#20211f);padding:15px;font-size:12px;color:inherit;text-decoration:none;transition:background .25s,color .25s}.ds-package-link:hover{background:var(--color-ink,#20211f);color:var(--color-cream,#fffefa)}.ds-package-link:focus-visible{outline:2px solid currentColor;outline-offset:5px}"
+    },
+    {
+      "name": "FAQ Disclosure",
+      "kind": "custom",
+      "description": "Native disclosure med tynd linje og plus/minus.",
+      "html": "<details class=\"ds-faq\"><summary>Skal vi selv filme?<span class=\"ds-plus\" aria-hidden=\"true\"></span></summary><p>Send os dine optagelser, eller lad os stå for idéer og en filmdag med Content Partner.</p></details>",
+      "css": ".ds-faq{background:var(--color-paper,#f3f1eb);color:var(--color-ink,#20211f);border-block:1px solid var(--color-line,#d5d4cb);font-family:var(--font-body,Manrope),sans-serif}.ds-faq summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:79px;padding-block:20px;font-size:15px;list-style:none;cursor:pointer}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq summary:focus-visible{outline:2px solid currentColor;outline-offset:5px}.ds-plus{position:relative;width:14px;height:14px;flex-shrink:0}.ds-plus:before,.ds-plus:after{content:\"\";position:absolute;top:6px;left:0;width:14px;height:1px;background:currentColor}.ds-plus:after{transform:rotate(90deg);transition:transform .3s var(--ease,cubic-bezier(.22,1,.36,1))}.ds-faq[open] .ds-plus:after{transform:rotate(0)}.ds-faq p{margin:0;padding:0 28px 25px 0;font-size:16px;line-height:1.85;color:var(--color-muted,#62635c)}@media(prefers-reduced-motion:reduce){.ds-plus:after{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Et åbent redaktionelt klippebord",
+    "overview": "Varmt, åbent redaktionelt design med store groteske overskrifter, filmisk fotografi og varm rød som klippemarkør. Papir, blæk og luft bærer læsningen; mørke billedsektioner og en rød kontaktflade giver tydelige skift i rytmen.\n\nVerdenen er implementeret i kode efter ejerens delegering uden interview. Dokumentet registrerer den lokale implementering, ikke en kundegodkendt komposition. Frontmatter er de normative, genbrugte tokenværdier; størrelsernes responsive afvigelser beskrives nedenfor.",
+    "keyCharacteristics": [
+      "Åbne flader og tynde skillelinjer frem for svævende kort.",
+      "Instrument Sans til store overskrifter; Manrope til læsning og betjening.",
+      "Fotografiske koncepter med tydelig mærkning og præcise formatmarkører.",
+      "Synlig servertekst og bevægelse som en progressiv forbedring."
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Brug den varme røde som systemets eneste accent; store røde flader er tilladt i kontaktsektionen.",
+        "section": "colors"
+      },
+      {
+        "name": "The Whole Word Rule",
+        "body": "Lad overskrifter skalere og ombryde mellem ord; undgå brud midt i ord.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Skab struktur med luft, farveflader og linjer; kort og indhold får ikke kontrolknappens skygge.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do brug papir og blæk som læseflade og varm rød til betoning og handling.",
+      "Do behold store overskrifter hele og læsbare på små skærme.",
+      "Do mærk koncepter og illustrationsfotos tydeligt, indtil reelt kundearbejde findes.",
+      "Do bevar servertekst, tastaturfokus, brugerens pausevalg og reduced motion."
+    ],
+    "donts": [
+      "Don't indføre gradienter, dekorative småoverskrifter eller monospace-kostume.",
+      "Don't opfinde kundebeviser, portrætter, priser eller tidligere designgodkendelser.",
+      "Don't gøre de runde tags og bevægelseskontrollen til en generel rund kortstil.",
+      "Don't gøre desktop-parallax nødvendig for forståelsen af indholdet."
+    ]
+  }
+}

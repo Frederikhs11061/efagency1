@@ -1,0 +1,3 @@
+import { pages, sections, anchor } from '@/lib/pages';
+import { Wordmark } from './header';
+export function Footer({email}:{email:string}) {return <footer className="footer shell"><div className="footer-top"><a href="/#main" aria-label="EF Agency – forside"><Wordmark/></a><p>Godt indhold begynder med<br/>en god samtale.</p><a href={`mailto:${email}`}>{email}</a></div><div className="footer-bottom"><span>© 2026 EF Agency</span><nav aria-label="Sidefod">{sections.filter(s=>s.menu).map(s=><a key={s.id} href={anchor(s.id)}>{s.name}</a>)}</nav><nav aria-label="Information">{pages.filter(p=>p.parent).map(p=><a key={p.path} href={p.path}>{p.name}</a>)}</nav></div></footer>;}

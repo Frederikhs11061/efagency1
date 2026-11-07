@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+.impeccable/review/
+work/
+
+# Local tool runtimes and review sessions
+.agents/skills/impeccable/scripts/bin/
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/config.local.json
+.DS_Store

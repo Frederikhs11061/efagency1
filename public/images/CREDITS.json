@@ -1,0 +1,21 @@
+[
+  {
+    "file": "clapperboard.jpg",
+    "source": "https://images.unsplash.com/photo-1485846234645-a62644f84728",
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728",
+    "license": "Unsplash License, https://unsplash.com/license",
+    "usage": "Illustrationsfoto i konceptsekvens; ikke EF Agency-produktion"
+  },
+  {
+    "file": "coffee.jpg",
+    "source": "https://images.unsplash.com/photo-1442512595331-e89e73853f31",
+    "license": "Unsplash License, https://unsplash.com/license",
+    "usage": "Illustrativt kaffebar-koncept, ikke kundeprojekt"
+  },
+  {
+    "file": "shoe.jpg",
+    "source": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "license": "Unsplash License, https://unsplash.com/license",
+    "usage": "Illustrativt produktkoncept. Varemærke tilhører sin ejer; ingen kundepåstand"
+  }
+]

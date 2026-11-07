@@ -1,0 +1,118 @@
+{
+  "lastUpdated": "2026-11-07",
+  "name": "EF Agency",
+  "email": "efagency99@gmail.com",
+  "description": "EF Agency hjælper din virksomhed med at skille sig ud på sociale medier med professionelle kortvideoer og kreativt indhold, der fanger opmærksomheden.",
+  "hero": {
+    "line1": "Kortvideoer.",
+    "line2": "Stort indtryk.",
+    "intro": "Vi gør dine idéer til indhold, folk stopper op ved. Kortvideoer til TikTok og Reels — fra første klip til sidste undertekst."
+  },
+  "services": [
+    {
+      "title": "Klip, der holder fast.",
+      "description": "Dine optagelser har mere i sig. Vi finder de stærke øjeblikke, giver historien rytme og klipper det overflødige væk.",
+      "tags": [
+        "Videoredigering",
+        "Overgange",
+        "Animation"
+      ]
+    },
+    {
+      "title": "Et budskab, der lander.",
+      "description": "Et godt hook giver folk en grund til at blive. Undertekster, musik og effekter gør historien let at følge — også uden lyd.",
+      "tags": [
+        "Hooks",
+        "Undertekster",
+        "Musik & lyd"
+      ]
+    },
+    {
+      "title": "Fra idé til færdigt feed.",
+      "description": "Mangler du tid, materiale eller en plan? Med Content Partner hjælper vi med idéerne, tager kameraet med og samler det hele.",
+      "tags": [
+        "Idéudvikling",
+        "Contentplan",
+        "Filmning"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "Edit Starter",
+      "count": 4,
+      "description": "En enkel vej til at komme i gang. Du filmer. Vi samler historien.",
+      "features": [
+        "4 redigerede videoer hver måned",
+        "Op til 30 sekunder pr. video",
+        "Klipning, musik og undertekster",
+        "Klar til TikTok og Reels",
+        "1 korrekturrunde pr. video"
+      ]
+    },
+    {
+      "name": "Edit Plus",
+      "count": 8,
+      "description": "Mere indhold. Mere plads til at vise, hvem din virksomhed er.",
+      "features": [
+        "8 redigerede videoer hver måned",
+        "Alt fra Edit Starter",
+        "Avanceret klipning og animation",
+        "Undertekster og tilpassede hooks",
+        "1 korrekturrunde pr. video"
+      ]
+    },
+    {
+      "name": "Content Partner",
+      "count": 12,
+      "description": "Din faste makker til idéerne, optagelserne og det færdige indhold.",
+      "features": [
+        "12 færdige videoer hver måned",
+        "Filmdag på op til 3 timer",
+        "Idéer og plan for månedens indhold",
+        "Filmning, klipning og undertekster",
+        "1 korrekturrunde pr. video"
+      ]
+    }
+  ],
+  "founders": [
+    {
+      "name": "Emil Dannemand",
+      "initials": "ED",
+      "role": "Co-founder · Video & kreativitet",
+      "description": "Emil finder rytmen i råmaterialet. Han står for videoredigering, undertekster, musik og effekter — og for at det færdige indhold føles som din virksomhed."
+    },
+    {
+      "name": "Frederik Bech",
+      "initials": "FB",
+      "role": "Co-founder · Content & marketing",
+      "description": "Frederik holder styr på samarbejdet. Han tager sig af kundekontakt, aftaler, planlægning og økonomi, så der er en klar linje fra første samtale til færdig video."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Skal vi selv filme?",
+      "answer": "I Edit Starter og Edit Plus sender I jeres egne optagelser. I Content Partner er en filmdag på op til 3 timer med i pakken, sammen med idéer og en plan for indholdet."
+    },
+    {
+      "question": "Hvilke platforme laver I videoer til?",
+      "answer": "Vi laver korte videoer i formatet til TikTok og Instagram Reels. Klipning, undertekster og tempo tilpasses det indhold, vi aftaler sammen."
+    },
+    {
+      "question": "Hvad hvis vi gerne vil have noget rettet?",
+      "answer": "Alle tre pakker indeholder én korrekturrunde pr. video. I ser videoen og giver jeres feedback, før den endelige version er klar."
+    },
+    {
+      "question": "Hvor lange er videoerne?",
+      "answer": "I Edit Starter er hver video op til 30 sekunder. Har I brug for andre længder, tager vi en snak om opgaven og finder et passende omfang."
+    },
+    {
+      "question": "Hvad koster et samarbejde?",
+      "answer": "Skriv til os om jeres behov og den pakke, I overvejer. Så afklarer vi omfang, pris og vilkår sammen, inden vi går i gang."
+    },
+    {
+      "question": "Hvordan kommer vi i gang?",
+      "answer": "Skriv til efagency99@gmail.com eller brug mailudkastet her på siden. Fortæl kort om jeres virksomhed, så starter vi samtalen derfra."
+    }
+  ]
+}
